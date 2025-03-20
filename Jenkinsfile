@@ -11,7 +11,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/villeschulz/LocaleExercise1.git'
+                git 'https://github.com/VilleSchulz/LocaleExercise1.git'
             }
         }
         stage('Build') {
